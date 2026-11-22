@@ -1,0 +1,295 @@
+{
+  "covers": [
+    {
+      "id": "K1",
+      "image": "河湾叶纹首日封",
+      "insert": "“壬17初印启用”印边",
+      "note": "纸背穿孔为同件特征"
+    },
+    {
+      "id": "K2",
+      "image": "河湾叶纹首日封",
+      "insert": "后配展笺写“首日实寄”",
+      "note": "与 K1 同图，不是同件"
+    },
+    {
+      "id": "K3",
+      "image": "山阁小船纪念封",
+      "insert": "无内芯",
+      "note": "曾与 K1 一起借出"
+    }
+  ],
+  "offices": [
+    {
+      "id": "P1",
+      "name": "北河湾局",
+      "aliases": [
+        "河湾",
+        "河上"
+      ],
+      "open": "1957-01-01",
+      "close": "1961-06-30"
+    },
+    {
+      "id": "P2",
+      "name": "南河湾局",
+      "aliases": [
+        "河湾",
+        "河南"
+      ],
+      "open": "1961-07-01",
+      "close": "1969-11-30"
+    },
+    {
+      "id": "P3",
+      "name": "岱中转运所",
+      "aliases": [
+        "岱中",
+        "岱站"
+      ],
+      "open": "1959-01-01",
+      "close": "1965-12-31"
+    },
+    {
+      "id": "P4",
+      "name": "沙洲投递所",
+      "aliases": [
+        "沙洲",
+        "沙嘴"
+      ],
+      "open": "1958-02-01",
+      "close": "1964-01-01"
+    },
+    {
+      "id": "P5",
+      "name": "山阁站",
+      "aliases": [
+        "山阁",
+        "山驿"
+      ],
+      "open": "1960-05-04",
+      "close": "1964-12-30"
+    }
+  ],
+  "era": [
+    {
+      "id": "Y1",
+      "text": "壬16=1960，壬17=1961，壬18=1962；馆内记时用当地零时。"
+    },
+    {
+      "id": "Y2",
+      "text": "河湾叶纹样式于1961-06-30启用。山阁小船样式于1962-01-02启用。"
+    }
+  ],
+  "routes": [
+    {
+      "id": "E1",
+      "origin": "P1",
+      "destination": "P3",
+      "min_hours": 4,
+      "direction": "普通",
+      "open": "1960-06-01",
+      "close": "1961-06-30"
+    },
+    {
+      "id": "E2",
+      "origin": "P2",
+      "destination": "P3",
+      "min_hours": 5,
+      "direction": "普通",
+      "open": "1961-07-01",
+      "close": "1963-08-09"
+    },
+    {
+      "id": "E3",
+      "origin": "P3",
+      "destination": "P4",
+      "min_hours": 6,
+      "direction": "普通",
+      "open": "1960-01-01",
+      "close": "1963-07-30"
+    },
+    {
+      "id": "E4",
+      "origin": "P3",
+      "destination": "P2",
+      "min_hours": 8,
+      "direction": "退件",
+      "open": "1961-07-01",
+      "close": "1963-07-30"
+    },
+    {
+      "id": "E5",
+      "origin": "P3",
+      "destination": "P5",
+      "min_hours": 7,
+      "direction": "普通",
+      "open": "1960-05-04",
+      "close": "1964-01-01"
+    },
+    {
+      "id": "E6",
+      "origin": "P4",
+      "destination": "P3",
+      "min_hours": 7,
+      "direction": "退件",
+      "open": "1960-01-01",
+      "close": "1963-07-30"
+    }
+  ],
+  "marks": [
+    {
+      "id": "M1",
+      "cover": "K1",
+      "side": "front",
+      "order_hint": 1
+    },
+    {
+      "id": "M2",
+      "cover": "K1",
+      "side": "back",
+      "order_hint": 2
+    },
+    {
+      "id": "M3",
+      "cover": "K1",
+      "side": "back",
+      "order_hint": 3
+    },
+    {
+      "id": "M4",
+      "cover": "K1",
+      "side": "front",
+      "order_hint": null
+    },
+    {
+      "id": "M5",
+      "cover": "K1",
+      "side": "back",
+      "order_hint": 4
+    },
+    {
+      "id": "M6",
+      "cover": "K2",
+      "side": "front",
+      "order_hint": 1
+    },
+    {
+      "id": "M7",
+      "cover": "K2",
+      "side": "back",
+      "order_hint": 2
+    },
+    {
+      "id": "M8",
+      "cover": "K3",
+      "side": "front",
+      "order_hint": 1
+    },
+    {
+      "id": "M9",
+      "cover": "K3",
+      "side": "back",
+      "order_hint": 2
+    }
+  ],
+  "readings": [
+    {
+      "id": "R1",
+      "mark": "M1",
+      "reader": "编目甲",
+      "text": "河湾，壬17 六月卅日，21时启。",
+      "certainty": "清楚"
+    },
+    {
+      "id": "R2",
+      "mark": "M2",
+      "reader": "编目甲",
+      "text": "岱中，七月初一，二时。",
+      "certainty": "月日清楚"
+    },
+    {
+      "id": "R3",
+      "mark": "M2",
+      "reader": "编目乙",
+      "text": "岱中，七月初一，六时，两个戳盖在一起。",
+      "certainty": "小时存疑"
+    },
+    {
+      "id": "R4",
+      "mark": "M3",
+      "reader": "编目甲",
+      "text": "沙嘴，七月一日，午后。",
+      "certainty": "时刻存疑"
+    },
+    {
+      "id": "R5",
+      "mark": "M4",
+      "reader": "编目乙",
+      "text": "南河湾，七月二日，退回；字迹方向与其他墨不同。",
+      "certainty": "动作存疑"
+    },
+    {
+      "id": "R6",
+      "mark": "M5",
+      "reader": "编目乙",
+      "text": "山阁，七月三日9时，疑是退后再寄。",
+      "certainty": "日期清楚"
+    },
+    {
+      "id": "R7",
+      "mark": "M6",
+      "reader": "编目丙",
+      "text": "南河湾 1962.1.2，纪念后补盖。",
+      "certainty": "清楚"
+    },
+    {
+      "id": "R8",
+      "mark": "M7",
+      "reader": "编目丙",
+      "text": "岱站，1月3日，疑为1962。",
+      "certainty": "年份存疑"
+    },
+    {
+      "id": "R9",
+      "mark": "M8",
+      "reader": "编目甲",
+      "text": "山阁壬18正月二日10时。",
+      "certainty": "清楚"
+    },
+    {
+      "id": "R10",
+      "mark": "M9",
+      "reader": "编目甲",
+      "text": "岱中壬18正月一日16时，可能是始发。",
+      "certainty": "动作存疑"
+    },
+    {
+      "id": "R11",
+      "mark": "M4",
+      "reader": "馆员",
+      "text": "这处颜色与同封展笺铅字一致，可能是后人的“退回”释注。",
+      "certainty": "归属待查"
+    }
+  ],
+  "display": [
+    {
+      "id": "D1",
+      "covers": [
+        "K1",
+        "K3"
+      ],
+      "time": "首周",
+      "draft": "常规邮路从北河湾转过岱中，当晚就到山阁，两个样本可相互印证。"
+    },
+    {
+      "id": "D2",
+      "covers": [
+        "K2",
+        "K3"
+      ],
+      "time": "次周",
+      "draft": "同一邮图沿用“首日实寄”，改放 K2。"
+    }
+  ]
+}
